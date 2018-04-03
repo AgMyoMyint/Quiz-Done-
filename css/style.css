@@ -1,0 +1,159 @@
+.navbar-inverse{
+    border-radius: 0px;
+    height:70px;
+}
+
+.title{
+    color: white;
+    line-height: 0px;
+    font-family: fantasy;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+
+    line-height:35px;
+    font-size: medium;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover{
+
+
+    font-size: medium;
+    border-bottom :9px #FFF solid;
+}
+
+li {
+    list-style: none;
+}
+
+lable{
+    display: inline-block;
+    width: 200px;
+    padding : 5px;
+}
+
+.index-title{
+    color: #000000;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.index-border{
+
+    padding : 20px;
+}
+
+.question{
+    padding: 5px;
+    word-wrap: break-word;
+}
+
+.choices{
+    margin-bottom:20px;
+    margin-left: 0px;
+}
+.choices > li{
+    list-style : none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    display:block;
+    word-wrap: break-word;
+}
+
+.submit-button{
+    padding : 10px;
+    border : 1px solid #2aa653;
+    background: #2aa653;
+    color : #fff;
+    width: 100%;
+
+    border-radius : 5px;
+}
+.function-button{
+    text-decoration: none;
+    padding : 10px;
+    border : 1px solid #2aa653;
+    background: #2aa653;
+    color : #fff;
+    border-radius : 5px;
+}
+.delete-button{
+
+    text-decoration: none;
+    padding : 10px;
+    border : 1px solid #cd4749;
+    background: #cd4749;
+    color : #fff;
+    border-radius : 5px;
+}
+.submit-button:hover{
+    padding : 10px;
+    border : 1px solid #248F47;
+    background: #248F47;
+    color : #fff;
+    width: 100%;
+}
+.submit-button:focus{
+    padding : 10px;
+    border : 1px solid #238A45;
+    background: #238A45;
+    color : #fff;
+    width: 100%;
+}
+.function-button:hover,.function-button:focus {
+
+    text-decoration: none;
+    padding : 10px;
+    border : 1px solid #248F47;
+    background: #248F47;
+    color : #fff;
+    border-radius : 5px;
+}
+.delete-button:hover,.delete-button:focus {
+
+    text-decoration: none;
+    padding : 10px;
+    border : 1px solid #a6393b;
+    background: #a6393b;
+    color : #fff;
+    border-radius : 5px;
+}
+
+
+.center {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alignment-center {
+    margin: auto;
+    align-items: center;
+    color: #282828;
+}
+
+a{
+    text-decoration : none;
+}
+a:hover{
+    text-decoration : none;
+}
+
+.table > tbody > tr > td{
+    padding-top : 15px;
+    padding-bottom : 15px;
+}
+
+.padding{
+    padding : 10px;
+}
+
+.textbox-number{
+    border-radius: 5px;
+    padding: 5px;
+    border : 1px solid #ccc;
+}
+
